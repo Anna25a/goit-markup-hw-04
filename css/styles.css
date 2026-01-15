@@ -27,6 +27,7 @@ body {
 .header-page {
     border-bottom: 1px solid;
     border-color: #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     
 }
 .header-container {
@@ -71,11 +72,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42; 
+    transition: cubic-bezier(0.4, 0, 0.2, 1)
 }
 .header-nav-link.current {
     position: relative;
 }
-.header-nav-link.current::before {
+.header-nav-link.current::after {
     content: "";
     position: absolute;
     left: 0;
@@ -103,6 +105,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+transition: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-nav-link:hover,
@@ -182,6 +185,16 @@ border: none;
  }
  .benefits-list-item {
     max-width: 264px;
+ }
+ .benefits-icon {
+    width: 264px;
+    height: 122px;
+    background-color:#f4f4fd;
+    border-radius: 4px;
+    border: 1px solid#8e8f99;
+    display: flex;
+align-items: center;
+justify-content: center;
  }
 
  .benefits-item-title {
