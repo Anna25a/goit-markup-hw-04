@@ -55,6 +55,7 @@
 .team-social-list {
    display: flex;
     gap: 24px;
+
 }
 
 .circle{
@@ -65,6 +66,9 @@
     width: 40px;
     height: 40px;
     align-items: center;
+}
+.circle:hover {
+    background-color: #404bbf;
 }
 .social-icon {
     fill: #f4f4fd;
