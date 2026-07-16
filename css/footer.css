@@ -5,7 +5,7 @@
 .container-footer {
     display: flex;
     align-items: flex-start;
-    gap: 120px;
+    margin-left: 120px;
 }
 
 .footer-text {
@@ -34,7 +34,8 @@
     color: #fff;
 
 }
-.circle-footer:hover{
+.circle-footer:hover,
+.circle-footer:focus {
     background-color: #31d0aa;
 }
 .footer-social-list {
