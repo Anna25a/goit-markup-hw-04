@@ -65,7 +65,7 @@
     width: 40px;
     height: 40px;
     align-items: center;
-    transition: background-color 250ms ;
+    transition: background-color 250ms ease ;
 }
 .circle:hover,
 .circle:focus {
