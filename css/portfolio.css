@@ -22,13 +22,35 @@
 
 
 .portfolio-item {
-    width: calc((100% - 24px * 2) / 3);}
-
+    width: calc((100% - 24px * 2) / 3);
+}
+.portfolio-item:hover .overley-text {
+    transform: translateY(0);
+}
+       
+.wrapper-overlay {
+    position: relative;
+    overflow: hidden;
+}
+.overley-text {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    position: absolute;
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: transform 250ms ;
+}
 .portfolio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+    
 
 .portfolio-subtitle {
     font-weight: 500;

@@ -5,9 +5,13 @@
 .container-footer {
     display: flex;
     align-items: flex-start;
-    margin-left: 120px;
+    
 }
+ 
 
+  .footer-social {
+    margin-left: 120px
+  }
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -37,6 +41,7 @@
 .circle-footer:hover,
 .circle-footer:focus {
     background-color: #31d0aa;
+
 }
 .footer-social-list {
 display: flex;
