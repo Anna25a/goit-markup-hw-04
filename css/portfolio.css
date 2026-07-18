@@ -23,10 +23,7 @@
 
 .portfolio-item {
     width: calc((100% - 24px * 2) / 3);
-}
-
-.portfolio-item:hover {
-    box-shadow: 0 1px 2px rgb(0, 0, 0, 0.15);
+    box-shadow: 0 1px 3px rgb(0, 0, 0, 0.15), 0 1px 2px rgb(0, 0, 0, 0.2), 0 2px 4px rgb(0, 0, 0, 0.3);
     transition: box-shadow 250ms ease-in-out;
 }
 
